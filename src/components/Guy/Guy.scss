@@ -1,0 +1,23 @@
+.guy {
+  margin-top: 1rem;
+
+  &__cap {
+    transform: matrix(1, 0, 0, 1, 10.000000, 1.000000)
+  }
+
+  &__face {
+    transform: matrix(1, 0, 0, 1, 44, 54);
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__notepad {
+    transform: matrix(1, 0, 0, 1, 39, 150);
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__notepad--rise {
+    transform: matrix(1, 0, 0, 1, 39, 105);
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../styles/sizes";
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 16rem;
+    width: 100%;
+    border: 1px solid rgba(53, 74, 87, 0.3);
+    border-radius: $border-radius;
+
+    &__guy {
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      overflow: hidden;
+      height: 9.5rem;
+      width: 9.5rem;
+      border-radius: 7rem;
+      border: 2px solid rgba(53, 74, 87, 0.9);
+    }
+
+    &__form {
+      width: 100%;
+      margin-top: 2rem;
+    }
+  }
+}

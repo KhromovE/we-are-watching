@@ -1,0 +1,17 @@
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    margin-top: 1rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-top: 1.5rem;
+    }
+  }
+}
